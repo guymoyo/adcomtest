@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>dashboard</title>
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-resource.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+    <script src="lib/angular/ui-bootstrap-tpls-0.4.0.js"></script>
+
+    <script src="/auth/js/keycloak.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</head>
+
+<body data-ng-controller="GlobalCtrl">
+
+<div id="content-area" class="col-md-9" role="main">
+    <div id="content">
+    	<div>dashboard: username: {{username}} | <a href="" ng-click="logout()">Sign Out</a></div>
+        <table>
+        	<tr ng-repeat="ws in workspaces" >
+        		<td><a ng-href="/{{ws}}" >{{ws}}</a></td>
+        	</tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

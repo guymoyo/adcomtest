@@ -1,0 +1,8 @@
+{
+  "realm": "adcom",
+  "realm-public-key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDT2WkbXOgyEhfMY2xOMwEjXmBFL/8SOZr7qNFt2+4CI8T13gBQPYoJxzVnX4Kgb2v/uUw7ywCvTAqjMGDrg3UyTs6hG9P7G95BXD2y3Uyc0VUwjmxLqzTYOmO9zDM7b7axRDewHNeg7cH++n15nB8TDAmEnctFNnvmcBxcSaeTzQIDAQAB",
+  "bearer-only": true,
+  "ssl-required": "external",
+  "resource": "adcost.server",
+  "use-resource-role-mappings": true
+}
