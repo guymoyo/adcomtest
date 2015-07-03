@@ -1,7 +1,8 @@
-# adcomtest, we consider jboss-eap-6.3
+# adcomtest
 Aouth2 
 --------------------------------------
-
+ we consider jboss-eap-6.3
+ 
 download  keycloak-war-dist-all-1.0.4.Final (war distribution),
 the dir look like:
 
